@@ -29,8 +29,8 @@
 #define LOGO16_GLCD_WIDTH  16
 
 ///////////// ssid password NETPIE2020  //////////////
-const char* ssid = "J_Kitisak_2.4GHz" ;
-const char* password = "08339187951234" ;
+const char* ssid = "******" ;
+const char* password = "*******" ;
 
 ////////////////////  variable int to string ////////////
 char angleHstr[7] ;
@@ -42,9 +42,9 @@ int num1 = 0 ;
 ////////// Client Token Secret for  Device GY521node1 ////////////
 const char* mqtt_server = "broker.netpie.io";
 const int mqtt_port = 1883 ;
-const char* mqtt_Client = "b42e2f3e-4f53-4d13-b9f8-d78b8a526bde";
-const char* mqtt_username = "v4o7Rg1LmuA7tkzjVucf9N4WLCZVdiE7";
-const char* mqtt_password = "GWy~ci-JabuhALn_RAzaf0ncHA#Nu(uQ";
+const char* mqtt_Client = "*******";
+const char* mqtt_username = "*******";
+const char* mqtt_password = "********";
 char msg[100];  ///////  can increase msg[120]
 long lastMsg = 0;
 
